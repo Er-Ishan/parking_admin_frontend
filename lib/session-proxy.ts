@@ -2,6 +2,7 @@
  * Session proxy helpers for same-origin cookies (fixes Safari/iOS login redirect issues).
  * Backend may set cookies on a different domain; we mirror them to our domain so the
  * browser treats them as first-party and sends them on every request.
+ * Changed by Qasim - 2025-02-20
  */
 
 // Prefer server-only env so production can use NEXT_PUBLIC_API_BASE_URL=/api/backend for client
